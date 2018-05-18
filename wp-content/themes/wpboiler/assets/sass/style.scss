@@ -1,0 +1,11 @@
+body {
+    background:black;
+}
+
+@import "teste.scss";
+
+h1 {
+    color:white;
+    background:red;
+    display:block;
+}
