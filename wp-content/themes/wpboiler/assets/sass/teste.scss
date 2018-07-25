@@ -1,3 +1,8 @@
-body {
-    background:green;
+.article {
+    &__item{
+        @include make-sm-column(12);
+        @include make-md-column(4);
+        @include make-md-column(6);
+        background:red;
+    }
 }

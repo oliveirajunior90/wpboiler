@@ -2,7 +2,7 @@
 
 #custom CSS and SCRIPTS
 function enqueue_styles(){
-    wp_enqueue_style('bootstrap-style', get_template_directory_uri().'/bower_components/bootstrap/dist/css/bootstrap.min.css');
+    //wp_enqueue_style('bootstrap-style', get_template_directory_uri().'/bower_components/bootstrap/dist/css/bootstrap.min.css');
     wp_enqueue_style('custom-style', get_template_directory_uri().'/assets/css/style.css');
     wp_enqueue_script('jquery-bootstrap', get_template_directory_uri().'/bower_components/jquery/dist/jquery.min.js', array(), '1.0.0', true);
     wp_enqueue_script('js-bootstrap', get_template_directory_uri().'/bower_components/bootstrap/dist/js/bootstrap.min.js', array('jquery-bootstrap'), '1.0.0', true);
