@@ -1,0 +1,24 @@
+article {
+    @extend .padding-top-button-section;
+}
+
+article .article-title {
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.article-1 {
+    background:white;
+}
+
+.article-2 {
+    background: $color-secondary;
+}
+
+.article-3 {
+    background:$color-primary;
+    color:white;
+}
+
+
+

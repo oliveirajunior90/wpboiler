@@ -12,6 +12,28 @@
 
 <body <?php body_class(); ?>>
 
+    <header>
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="#">Logotipo</a>
+            </div>
+
+            <div class="menu-links">
+                <ul class="megamenu">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                </ul>
+            </div>
+
+            <div class="menu-icons">
+                
+            </div>
+        </div>
+    </header>
+
 
 
 	

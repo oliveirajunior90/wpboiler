@@ -1,0 +1,13 @@
+.call-1 {
+    @include make-sm-column(12);
+    @include make-md-column(4);
+    
+    > div {
+        padding: 1px 20px;
+        background: white;
+    }
+}
+
+.contact-form {
+    @include make-sm-column(12);
+}

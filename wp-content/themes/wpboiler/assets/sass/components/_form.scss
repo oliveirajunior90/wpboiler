@@ -1,0 +1,39 @@
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+{
+    background-color: #fff;
+    border:2px solid $color-primary;
+    width: 100%;
+    padding: 2px 6px 0;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"]
+{
+    height: 40px;
+}
+
+.wpcf7 span.wpcf7-not-valid-tip {
+    color:white;
+    background:$color-primary;
+    padding:5px;
+    font-style:italic;
+    font-size: 1.2rem;
+    transition:background 1s; 
+}
+
+.wpcf7 .wpcf7-validation-errors {
+    border:none;
+    padding:0;
+    margin:0;
+}
+
+.wpcf7 input[type="submit"],
+.wpcf7 input[type="button"] { 
+    background-color:$color-primary;
+    color:white;
+    border:0;
+    text-align:center;
+    text-transform:uppercase;
+}

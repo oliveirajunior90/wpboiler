@@ -1,8 +1,12 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-@import "teste.scss";
 
-h1 {
-    color:white;
-    background:red;
-    display:block;
-}
+@import "_mixins.scss";
+@import "_variables.scss";
+@import "_layout.scss";
+
+@import "components/_component-default.scss";
+@import "components/_form.scss";
+@import "components/_menu.scss";
+
+
+
